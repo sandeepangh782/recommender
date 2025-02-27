@@ -65,7 +65,13 @@ The system uses two CSV files:
 ```bash
 pip install -r requirements.txt
 ```
-3. Run the main script:
+3. Update the CSV paths in `config.py` to point to the correct dataset locations:
+```python
+# config.py
+USER_INTERACTION_CSV_PATH = '/path/to/User_interaction.csv'
+META_DATA_CSV_PATH = '/path/to/Meta_data.csv'
+```
+4. Run the main script:
 ```bash
 python main.py
 ```

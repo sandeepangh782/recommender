@@ -14,6 +14,7 @@ The system combines collaborative filtering and content-based approaches to prov
 
 ## 📂 Directory Structure
 
+```
 RECOMMENDER/
 │── applied-recommendation-system/      # Core implementation of the recommendation system
 │   ├── config.py                        # CSV paths
@@ -37,8 +38,7 @@ RECOMMENDER/
 │
 │── LICENSE                                # License for project usage
 │── README.md                              # Project documentation
-
-
+```
 
 ## Data Description
 
